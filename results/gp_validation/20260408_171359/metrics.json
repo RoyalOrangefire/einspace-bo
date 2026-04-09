@@ -1,0 +1,13 @@
+{
+  "rmse": 0.07206733265445758,
+  "mae": 0.04756465838919958,
+  "pearson_r": 0.7932270953444436,
+  "mean_nll": 351.6961013889948,
+  "n_folds_ok": 35,
+  "n_folds_total": 35,
+  "mode": "synthetic",
+  "n": 35,
+  "seed": 0,
+  "oracle_noise": 0.02,
+  "gp_noise": 0.0001
+}

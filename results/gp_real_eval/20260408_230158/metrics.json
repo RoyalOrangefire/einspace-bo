@@ -1,0 +1,15 @@
+{
+  "pkl": "../einspace/results/search_strategy=re_dataset=language_epochs=8_hpo_runs=1_num_samples=1000_pop_size=100_sample_size=10_arch_seed=resnet18_no_maxpool.pkl",
+  "n_used": 128,
+  "metrics": {
+    "rmse": 0.5450251112958097,
+    "mae": 0.18667139689041923,
+    "pearson_r": 0.9992128909657579,
+    "spearman_rho": 0.5388314205531488,
+    "spearman_pvalue": 0.001463583399513763,
+    "mean_nll": -2.3640029638852074,
+    "n_train": 96,
+    "n_test": 32,
+    "split": "random"
+  }
+}

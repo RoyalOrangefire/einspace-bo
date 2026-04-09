@@ -1,0 +1,65 @@
+{
+  "pkl": "/projects/standard/adeshwal/shared/anand155/einspace/results/search_strategy=re_dataset=language_epochs=8_hpo_runs=1_num_samples=1000_pop_size=100_sample_size=10_arch_seed=resnet18_no_maxpool.pkl",
+  "n_used": 123,
+  "aggregate": {
+    "kfold_k": 5,
+    "n_total": 123,
+    "rmse_mean": 1.351976280487369,
+    "rmse_std": 1.9193694273409057,
+    "mae_mean": 0.3498013160508183,
+    "mae_std": 0.4647138806938982,
+    "pearson_r_mean": 0.6929086038735953,
+    "pearson_r_std": 0.47311542794709704,
+    "spearman_rho_mean": 0.6742235654257266,
+    "spearman_rho_std": 0.33205680788101927,
+    "pooled": {
+      "rmse": 2.36601203980586,
+      "mae": 0.35306769687183986,
+      "pearson_r": 0.9705886872651553,
+      "spearman_rho": 0.44927518872567707,
+      "spearman_pvalue": 1.8634160004920205e-07
+    }
+  },
+  "per_fold": [
+    {
+      "rmse": 5.163923054671453,
+      "mae": 1.2712299444065236,
+      "pearson_r": -0.22213507815817699,
+      "spearman_rho": 0.08867924528301886,
+      "spearman_pvalue": 0.6733694446582943,
+      "mean_nll": -0.44271379331285216
+    },
+    {
+      "rmse": 0.6858723932033488,
+      "mae": 0.17389703172597137,
+      "pearson_r": 0.99896749617181,
+      "spearman_rho": 0.9914354812691036,
+      "spearman_pvalue": 7.696397190848023e-22,
+      "mean_nll": -2.561184224882024
+    },
+    {
+      "rmse": 0.02845998203275769,
+      "mae": 0.006041813005615495,
+      "pearson_r": 0.9999999999999999,
+      "spearman_rho": 1.0,
+      "spearman_pvalue": 0.0,
+      "mean_nll": -3.281932040247935
+    },
+    {
+      "rmse": 0.5695178918332322,
+      "mae": 0.17064250587719107,
+      "pearson_r": 0.9993209224397732,
+      "spearman_rho": 0.6501315754074646,
+      "spearman_pvalue": 0.0005839117597967234,
+      "mean_nll": -2.6765630116684567
+    },
+    {
+      "rmse": 0.31210808069605256,
+      "mae": 0.12719528523879,
+      "pearson_r": 0.6883896789145706,
+      "spearman_rho": 0.6408715251690459,
+      "spearman_pvalue": 0.0007404383366907156,
+      "mean_nll": -2.4161197149491294
+    }
+  ]
+}

@@ -39,5 +39,6 @@ fire
 positional-encodings[pytorch]
 
 # visualisation
+matplotlib
 networkx
 pyvis

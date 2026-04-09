@@ -1,0 +1,37 @@
+seed: 0
+dataset: language
+device: cuda:0
+load_in_gpu: True
+batch_size: 256
+channels: 1
+image_size: [24, 24]
+input_mode: im
+num_classes: 10
+score: xe
+patience: 8
+log: False
+search_space_num_repeated_cells: 1
+search_space_computation_module_prob: 0.32
+search_space_min_module_depth: 0
+search_space_max_module_depth: 100
+train_mode: [train, val]
+test_epochs: 64
+lr: 0.04
+momentum: 0.9
+weight_decay: 0.0003
+epochs: 1
+search_strategy: tree_bo
+search_strategy_num_samples: 3
+search_strategy_continue_search: False
+search_strategy_architecture_seed: resnet18_no_maxpool
+tree_bo_init_num_samples: 2
+tree_bo_candidate_pool_size: 4
+tree_bo_acquisition: ei
+tree_bo_mutation_prob: 0.7
+tree_bo_local_tournament_size: 2
+tree_bo_gp_noise: 0.0001
+tree_bo_ei_xi: 0.01
+tree_bo_ucb_beta: 2.0
+hpo_runs: 1
+search_strategy_init_pop_size: 100
+search_strategy_sample_size: 10
